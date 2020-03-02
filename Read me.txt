@@ -1,0 +1,12 @@
+O trabalho a seguir tem como objetivo reforçar os estudos de endereços IPv4 de redes e subredes.
+O software desenvolvido fornece um menu de opções logo no inicio da execução, onde deverá ser escolhido um número correspondente a opção desejada. Opções essas que são:
+1 - Calcular IP com classe
+2 - Calcular IP sem classe e notação CIDR
+3 - Calcular IP sem classe e notação decimal
+4 - Sair
+
+Ao escolher a opção 1, 2 ou 3. Será pedido para inserir um número de IP no padrão n.n.n.n, exemplo: 126.80.10.10. Se o IP fornecido for um IP válido, o programa prossegue normalmente, caso contrário ele retorna uma mensagem de erro dizendo que o IP é inválido e irá ser exibido o menu de opções novamente. 
+Caso o número do IP seja válido, se a opção escolhida anteriormente tenha sido a opção 1, o programa te retorna as informações dos valores calculados que estarão um em cada linha, os resultados exibidos serão: Classe, Entrada, Máscara(/), Hosts, Rede, Broadcast, IP inicial e IP final.
+Se a opção escolhida no menu tenha sido a opção 2, após ser validado o IP, será pedido para inserir a notação CIDR no padrão n, exemplo: 18. Depois de inserir a notação CIDR, o programa irá verificar se ela é válida ou não, se for válida, seguirá o mesmo padrão de resultado da opção 1 descrita acima, se a notação CIDR inserida for inválida, será retornado uma mensagem dizendo “Notação CIDR fornecida inválida” e irá ser exibido o menu de opções novamente.
+Se a opção escolhida no menu tenha sido a opção 3, após ser validado o IP, será pedido para inserir a notação decimal no padrão n.n.n.n, exemplo: 255.192.0.0. Depois de inserir a notação decimal, o programa irá verificar se ela é válida ou não, se for válida seguirá o mesmo padrão de resultado da opção 1 descrita acima, se a notação decimal inserida for inválida, será retornado uma mensagem dizendo “Número da notação decimal fornecido inválido” e irá ser exibido o menu de opções novamente.
+Se a opção escolhida no menu tenha sido a opção 4, o programa ira retornar uma mensagem dizendo ” Calculadora de IP encerrando com sucesso” e irá finalizar o programa.
